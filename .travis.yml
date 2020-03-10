@@ -9,8 +9,9 @@ branches:
 script:
   - hexo generate # generate static files
 deploy:
-  provider: git
-  https://github.com/ClarkMichaelA/clarkmichael.github.io
+  provider: pages
+  type: git
+  repo: https://github.com/ClarkMichaelA/clarkmichael.github.io
   skip-cleanup: false
   github-token: $GH_TOKEN
   keep-history: true
