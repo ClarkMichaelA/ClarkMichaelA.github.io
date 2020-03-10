@@ -12,7 +12,7 @@ deploy:
   provider: pages
   type: git
   repo: https://github.com/ClarkMichaelA/clarkmichael.github.io
-  skip-cleanup: false
+  skip-cleanup: true
   github-token: $GH_TOKEN
   keep-history: true
   target_branch: master
